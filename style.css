@@ -5,60 +5,87 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.primebtn{
+.primebtn {
     border: 0px;
     text-transform: capitalize;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 600;
     color: white;
-    padding: 18px 36px;
+    padding: 15px 20px;
     background: #FD6E0A;
     border-radius: 5px;
-
 }
-.fix-width{
+
+section {
     width: 75%;
     margin: 0 auto;
 }
 
+.prime-para {
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: 20px;
+    color: #757575;
+    text-align: center;
+}
+
+.common-mt {
+    margin-top: 110px;
+}
+
+.common-h3 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.common-h5 {
+    font-size: 14px;
+}
+
 /* nav section */
 
-header{
+header {
     background-color: #FFF8F3;
     background-image: url('./images/developer.png');
     background-repeat: no-repeat;
     background-size: contain;
 }
-header nav{
+
+header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 45px 0;
+    padding: 30px 0;
 }
-header nav .logo h1{
-    font-size: 50px;
+
+header nav .logo h1 {
+    font-size: 45px;
     font-weight: 800;
 }
-header nav .logo span{
+
+header nav .logo span {
     color: #FD6E0A;
 }
-header nav .menu ul{
+
+header nav .menu ul {
     display: flex;
     align-items: center;
 }
-header nav .menu ul li{
+
+header nav .menu ul li {
     list-style: none;
     margin-left: 51px;
 }
-header nav .menu ul li a{
-    font-size: 16px;
+
+header nav .menu ul li a {
+    font-size: 14px;
     text-transform: capitalize;
     text-decoration: none;
     color: #474747;
 }
 
 /* banner section */
-.banner{
+.banner {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -67,38 +94,93 @@ header nav .menu ul li a{
     background-repeat: no-repeat;
 
 }
-.banner .text-container{
-    width: 35%;
-    margin-left: 215px;
+
+.banner .text-container {
+    width: 31%;
+    margin-left: 168px;
 }
-.banner .text-container h3{
-    font-size: 40px;
+
+.banner .text-container h3 {
+    font-size: 30px;
     font-weight: 400;
 }
-.banner .text-container h1{
-    font-size: 70px;
+
+.banner .text-container h1 {
+    font-size: 55px;
 }
-.banner .text-container p{
-    font-size: 18px;
-    line-height: 30px;
-    margin-top: 20px;
-    color: #757575;
-}
-.banner .text-container button{
+
+.banner .text-container p {}
+
+.banner .text-container button {
     margin-top: 30px;
 }
-.banner img{
+
+.banner img {
     margin-right: 38px;
 }
-.contactbtn{
+
+.contactbtn {
     border: 0px;
     text-transform: capitalize;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 600;
-    padding: 18px 36px;
+    padding: 15px 20px;
     border-radius: 5px;
     color: #FD6E0A;
     border: 1px solid #FD6E0A;
     background-color: white;
     margin-left: 30px;
+}
+
+/* about us section */
+
+.about-sec {
+    background-color: #FFF8F3;
+    padding: 90px 126px;
+    text-align: center;
+}
+
+.about-sec p {
+    margin-top: 30px;
+}
+
+.about-sec ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.about-sec ul li {
+    list-style: none;
+}
+
+.about-sec ul li h5 {}
+
+/* Do section */
+
+.do-container>p {
+    padding: 0 140px;
+}
+
+.do-container ul {
+    display: flex;
+    margin-top: 50px;
+    justify-content: flex-start;
+}
+
+.do-container ul li h5 {
+    margin-top: 10px;
+}
+
+.do-container ul li p {
+    text-align: start;
+}
+
+.do-container ul li {
+    margin-left: 25px;
+    padding: 30px;
+    list-style: none;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
