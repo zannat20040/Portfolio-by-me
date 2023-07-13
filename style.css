@@ -17,16 +17,16 @@
 }
 
 section {
-    width: 75%;
+    width: 70%;
     margin: 0 auto;
 }
 
 .prime-para {
     font-size: 14px;
-    line-height: 30px;
+    line-height: 25px;
     margin-top: 20px;
     color: #757575;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .common-mt {
@@ -34,12 +34,13 @@ section {
 }
 
 .common-h3 {
-    font-size: 35px;
+    font-size: 33px;
     text-align: center;
 }
 
 .common-h5 {
     font-size: 14px;
+    margin-top: 10px;
 }
 
 /* nav section */
@@ -97,7 +98,7 @@ header nav .menu ul li a {
 
 .banner .text-container {
     width: 31%;
-    margin-left: 168px;
+    margin-left: 195px;
 }
 
 .banner .text-container h3 {
@@ -108,9 +109,6 @@ header nav .menu ul li a {
 .banner .text-container h1 {
     font-size: 55px;
 }
-
-.banner .text-container p {}
-
 .banner .text-container button {
     margin-top: 30px;
 }
@@ -154,12 +152,11 @@ header nav .menu ul li a {
     list-style: none;
 }
 
-.about-sec ul li h5 {}
-
 /* Do section */
 
 .do-container>p {
     padding: 0 140px;
+    text-align: center;
 }
 
 .do-container ul {
@@ -184,3 +181,32 @@ header nav .menu ul li a {
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
+.do-container ul li:first-child{
+    margin-left: 0;
+}
+/* Resume section */
+
+.resume-container{
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.resume-container div{
+    width: 48%;
+}
+
+.resume-container li{
+    list-style: none;
+    width: 86%;
+}
+.resume-container li h5{
+    margin-top: 30px;
+}
+.resume-container li .firstpara{
+    margin-top: 6px;
+    font-weight: 600;
+}
+hr{
+    margin: 30px 0;
+}
+
