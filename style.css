@@ -11,7 +11,7 @@
     font-size: 14px;
     font-weight: 600;
     color: white;
-    padding: 15px 20px;
+    padding: 12px 25px;
     background: #FD6E0A;
     border-radius: 5px;
 }
@@ -34,7 +34,7 @@ section {
 }
 
 .common-h3 {
-    font-size: 33px;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -109,6 +109,7 @@ header nav .menu ul li a {
 .banner .text-container h1 {
     font-size: 55px;
 }
+
 .banner .text-container button {
     margin-top: 30px;
 }
@@ -122,7 +123,7 @@ header nav .menu ul li a {
     text-transform: capitalize;
     font-size: 14px;
     font-weight: 600;
-    padding: 15px 20px;
+    padding: 12px 25px;
     border-radius: 5px;
     color: #FD6E0A;
     border: 1px solid #FD6E0A;
@@ -181,32 +182,86 @@ header nav .menu ul li a {
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
-.do-container ul li:first-child{
+
+.do-container ul li:first-child {
     margin-left: 0;
 }
+
 /* Resume section */
 
-.resume-container{
-    padding: 100px 0;
+.resume-container {
+    padding: 100px 0 50px 0;
     display: flex;
     justify-content: space-between;
 }
-.resume-container div{
+
+.resume-container div {
     width: 48%;
 }
 
-.resume-container li{
+.resume-container li {
     list-style: none;
     width: 86%;
 }
-.resume-container li h5{
+
+.resume-container li h5 {
     margin-top: 30px;
 }
-.resume-container li .firstpara{
+
+.resume-container li .firstpara {
     margin-top: 6px;
     font-weight: 600;
 }
-hr{
+
+hr {
     margin: 30px 0;
+    color: #D1D1D1;
 }
 
+.resumebtn {
+    text-align: center;
+}
+
+/* contact secton */
+
+.contact-container {
+    background: #FFF8F3;
+}
+
+.contact-container section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-container div {
+    padding: 100px 0;
+    width: 48%;
+    text-align: left;
+}
+
+.contact-container h3 {
+    text-align: left;
+}
+
+input,
+textarea {
+    display: block;
+    width: 94%;
+    outline: none;
+    padding: 13px;
+    border: 0;
+    margin-bottom: 14px;
+}
+
+.contact-container ul {
+    display: flex;
+}
+
+.contact-container li {
+    margin: 25px 20px 0 0;
+    list-style: none;
+}
+
+.contact-container li a i {
+    color: #FD6E0A;
+}
